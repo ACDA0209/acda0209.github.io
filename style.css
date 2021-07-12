@@ -589,6 +589,10 @@ text-align: center;
   border: 7px solid #f7d001;
   z-index: -1; */
 }
+
+#about .cta {
+  margin-top: 0px;
+}
 /* End About Section */
 
 /* contact Section */
