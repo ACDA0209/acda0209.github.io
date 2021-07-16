@@ -87,6 +87,14 @@ function setObject(projectType) {
       arr.push(obj);
     
       var obj = new Object();
+      obj.id = "Login";
+      obj.name = "Login";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/AdmissionSystem/Admin/Login.png";
+      obj.hr = false;
+      arr.push(obj); 
+
+      var obj = new Object();
       obj.id = "AdminHome";
       obj.name = "Admin Home";
       obj.divClass = "noScroll";
@@ -129,11 +137,19 @@ function setObject(projectType) {
     break;
     case "Lead Affiliate Website":
       var obj = new Object();
+      obj.id = "Login";
+      obj.name = "Login";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/LeadAffiliate/Login.png";
+      obj.hr = false;
+      arr.push(obj);
+
+      var obj = new Object();
       obj.id = "Dashboard";
       obj.name = "Dashboard";
       obj.divClass = "";
       obj.img = "./img/projects/LeadAffiliate/Dashboard.png";
-      obj.hr = false;
+      obj.hr = true;
       arr.push(obj);
 
       var obj = new Object();
@@ -157,7 +173,7 @@ function setObject(projectType) {
       obj.name = "Researcher Invalid";
       obj.divClass = "";
       obj.img = "./img/projects/LeadAffiliate/Researcher-Invalid.png";
-      obj.hr = false;
+      obj.hr = true;
       arr.push(obj);
 
       var obj = new Object();
@@ -181,7 +197,7 @@ function setObject(projectType) {
       obj.name = "QA Mass Approval";
       obj.divClass = "noScroll";
       obj.img = "./img/projects/LeadAffiliate/QA-MassApproval.png";
-      obj.hr = false;
+      obj.hr = true;
       arr.push(obj);
 
       var obj = new Object();
@@ -209,6 +225,7 @@ function setObject(projectType) {
       arr.push(obj);
     break;
     case "HELPDESK":
+ 
       var obj = new Object();
       obj.id = "FloatingButton";
       obj.name = "Floating Button";
@@ -236,13 +253,91 @@ function setObject(projectType) {
       var obj = new Object();
       obj.id = "ClientFAQ";
       obj.name = "Client FAQ";
-      obj.divClass = "";
+      obj.divClass = "noScroll";
       obj.img = "./img/projects/Helpdesk/ClientFAQ.png";
+      obj.hr = true;
+      arr.push(obj);
+
+      var obj = new Object();
+      obj.id = "Login";
+      obj.name = "Login";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/Helpdesk/Login.png";
+      obj.hr = false;
+      arr.push(obj);
+
+      var obj = new Object();
+      obj.id = "AdminMessage";
+      obj.name = "Messages (Admin)";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/Helpdesk/AdminMessage.png";
+      obj.hr = false;
+      arr.push(obj);
+
+      var obj = new Object();
+      obj.id = "AdminIssues";
+      obj.name = "Issues (Admin)";
+      obj.divClass = "";
+      obj.img = "./img/projects/Helpdesk/AdminIssues.png";
+      obj.hr = false;
+      arr.push(obj);
+
+      var obj = new Object();
+      obj.id = "AdminFAQ";
+      obj.name = "FAQ (Admin)";
+      obj.divClass = "";
+      obj.img = "./img/projects/Helpdesk/AdminFAQ.png";
+      obj.hr = false;
+      arr.push(obj);
+
+      var obj = new Object();
+      obj.id = "UserMaintenance";
+      obj.name = "User Maintenance";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/Helpdesk/UserMaintenance.png";
       obj.hr = false;
       arr.push(obj);
     break;
     case "AUTODIALER":
+      var obj = new Object();
+      obj.id = "Login";
+      obj.name = "Login";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/Autodialer/Login.png";
+      obj.hr = true;
+      arr.push(obj);
 
+      var obj = new Object();
+      obj.id = "Autodialer";
+      obj.name = "Autodialer";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/Autodialer/Autodialer.png";
+      obj.hr = true;
+      arr.push(obj);      
+
+      var obj = new Object();
+      obj.id = "Upload";
+      obj.name = "Upload";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/Autodialer/Upload.png";
+      obj.hr = false;
+      arr.push(obj);      
+
+      var obj = new Object();
+      obj.id = "UserMaintenance";
+      obj.name = "User Maintenance";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/Autodialer/UserMaintenance.png";
+      obj.hr = false;
+      arr.push(obj);      
+
+      var obj = new Object();
+      obj.id = "UserSettings";
+      obj.name = "User Settings";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/Autodialer/UserSettings.png";
+      obj.hr = false;
+      arr.push(obj);      
     break;
   
     default:

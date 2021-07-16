@@ -10,9 +10,9 @@ function windowOnClick(event) {
   console.log(event.target.classList);
   let result = event.target.classList.value.includes('tablinks') || event.target.classList.value.includes('modal-cta'); 
   if(result){
-    document.querySelector("body").style.overflow = "hidden"; 
+    document.querySelector("body").style.overflowY = "hidden"; 
   }else{
-    document.querySelector("body").style.overflow = "scroll"; 
+    document.querySelector("body").style.overflowY = "scroll"; 
   }
 
 		if (event.target === modal) {
