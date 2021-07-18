@@ -317,8 +317,8 @@ function setObject(projectType) {
 
       var obj = new Object();
       obj.id = "Upload";
-      obj.name = "Upload";
-      obj.divClass = "noScroll";
+      obj.name = "Upload and Export";
+      obj.divClass = "";
       obj.img = "./img/projects/Autodialer/Upload.png";
       obj.hr = false;
       arr.push(obj);      
@@ -333,11 +333,27 @@ function setObject(projectType) {
 
       var obj = new Object();
       obj.id = "UserSettings";
-      obj.name = "User Settings";
+      obj.name = "Autodialer Settings";
       obj.divClass = "noScroll";
       obj.img = "./img/projects/Autodialer/UserSettings.png";
       obj.hr = false;
       arr.push(obj);      
+
+      var obj = new Object();
+      obj.id = "LeadMaintenance";
+      obj.name = "Lead Maintenance";
+      obj.divClass = "";
+      obj.img = "./img/projects/Autodialer/LeadMaintenance.png";
+      obj.hr = false;
+      arr.push(obj);     
+      
+      var obj = new Object();
+      obj.id = "Reports";
+      obj.name = "Reports";
+      obj.divClass = "noScroll";
+      obj.img = "./img/projects/Autodialer/Reports.png";
+      obj.hr = false;
+      arr.push(obj); 
     break;
   
     default:
